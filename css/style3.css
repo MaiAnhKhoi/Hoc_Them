@@ -1,0 +1,29 @@
+form{
+    width: 50%;
+    background-color: #fdd7a6;
+    padding: 5px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #fdd7a6;
+}
+th,td{
+    text-align: left;
+    padding: 5px;
+}
+td{
+    color: blue;
+}
+label{
+    color: black;
+}
+th{
+    background-color: #8fd8f1;
+    color: blue;
+    font-weight: bold;
+}
+#btnSubmit,#btnReset{
+    width: 20.5%;
+}
