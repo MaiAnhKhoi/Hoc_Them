@@ -1,0 +1,41 @@
+form{
+    background-color: #dddddd;
+    width: 50%;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #fbf4f4;
+}
+#name{
+    width: 75%;
+}
+#email{
+    width: 50%;
+}
+td, th {
+    padding: 8px;
+}
+th{
+    text-align: center;
+    color: #dddddd;
+    background-color: #d61b06;
+}
+#txtEmail,
+#txtHoVaTen,
+#txtSoThich{
+    text-align: right;
+    color: blue;
+}
+#btnSubmit{
+    width: 75%;
+    background-color: #999b9c;
+}
+#btnReset{
+    width: 75%;
+    background-color: #999b9c
+}
+#btn1{
+    text-align: right;
+}
