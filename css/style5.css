@@ -1,0 +1,59 @@
+table{
+    border-collapse:collapse;
+    border-spacing:2px;
+}
+th,td{
+   border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+th{
+    border: 1px solid transparent;
+    border-bottom: 1px solid black;
+}
+#title{
+    border-bottom: 1px solid transparent;
+    color: blue;
+}
+#day th{
+    background-color: orange;
+    border-right: 2px solid white;
+    color: white;
+    border-bottom: 1px solid transparent;
+}
+#day .sun{
+    background-color: red;
+}
+#day .sat{
+    background-color: blue;
+}
+tr .sun{
+    color: red;
+}
+tr .sat{
+    color: blue;
+}
+#ngay td{
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+.calender td{
+    position: relative;
+    padding: 20px;
+}
+.calender .solar{
+    font-weight:  bold;
+    font-size: 28px;
+}
+.calender .lunar{
+    position:  absolute;
+    font-weight: bold;
+    bottom: 20px;
+    font-size: 15px;
+}
+.calender .sat .lunar{
+    color: black;
+}
+.calender .sun .lunar{
+    color: black;
+}
