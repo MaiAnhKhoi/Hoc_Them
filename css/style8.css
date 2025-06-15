@@ -1,0 +1,148 @@
+/* Reset nhẹ */
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Tahoma, sans-serif;
+    background-color: white;
+}
+
+/* Form chính */
+form.survey-form {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #000;
+}
+
+/* Tiêu đề form */
+form.survey-form h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+/* Đoạn mô tả */
+form.survey-form p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+/* Label câu hỏi */
+form.survey-form label.title span,
+form.survey-form label > span {
+    font-weight: bold;
+    display: block;
+    margin: 20px 0 5px;
+}
+
+/* Select dropdown */
+form.survey-form select {
+    width: 250px;
+    padding: 4px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* Radio và Checkbox */
+form.survey-form input[type="radio"],
+form.survey-form input[type="checkbox"] {
+    margin-right: 5px;
+    margin-top: 8px;
+}
+
+/* Dòng nhập giá sản phẩm */
+form.survey-form input[type="text"] {
+    width: 50px;
+    padding: 4px;
+    font-size: 14px;
+    margin: 0 5px;
+}
+
+/* Textarea */
+form.survey-form textarea {
+    width: 100%;
+    height: 120px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    resize: vertical;
+}
+
+/* Bảng đánh giá */
+form.survey-form table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 13px;
+    text-align: center;
+}
+form.survey-form table tr:nth-child(odd) {
+    background-color: #ddd;
+}
+form.survey-form table th,td{
+    border: 1px solid #ccc;
+}
+form.survey-form th {
+    background-color: #ddd;
+    padding: 10px;
+    font-weight: bold;
+}
+
+form.survey-form td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+form.survey-form td:first-child {
+    text-align: left;
+    font-weight: normal;
+}
+
+/* Nhóm ô nhập giá sản phẩm */
+.price-input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 5px;
+}
+
+/* Hàng đầu: dòng nhập $ ___ . ___ */
+.price-input .amount {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.price-input input[type="text"] {
+    width: 50px;
+    padding: 4px;
+    font-size: 14px;
+}
+
+/* Hàng dưới: ghi chú "Dollars" và "Cents" */
+.price-input .labels {
+    display: flex;
+    justify-content: flex-start;
+    gap: 58px; /* khoảng cách giữa Dollars và Cents */
+    font-size: 13px;
+    color: #444;
+    margin-left: 18px; /* canh dòng ghi chú với input */
+}
+/* Nút submit */
+form.survey-form button[type="submit"],
+form.survey-form input[type="submit"] {
+    margin-top: 20px;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #e0e0e0;
+    border: 1px solid #aaa;
+    cursor: pointer;
+}
+
+form.survey-form button[type="submit"]:hover {
+    background-color: #d5d5d5;
+}
